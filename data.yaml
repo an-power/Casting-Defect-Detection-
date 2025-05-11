@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Casting_burr', 'Polished_casting', 'burr', 'crack', 'pit', 'scratch', 'strain', 'unpolished_casting']
+
+roboflow:
+  workspace: new-workspace-kmz9b
+  project: casting-detection-leboi
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-kmz9b/casting-detection-leboi/dataset/10
